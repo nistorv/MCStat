@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
         let noPlayerEmbed = new Discord.RichEmbed()
             .setTitle(`${username}'s Hypixel Stats`)
             .setDescription("This player has not played on the Hypixel Network")
-            .setFooter("Provided by MCStat | HypixelAPI", bot.user.displayAvatarURL)
+            .setFooter("MCStat", bot.user.displayAvatarURL)
         message.channel.send(noPlayerEmbed);
     }
 
